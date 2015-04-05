@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCC62CB1AD0C00700DFFFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */; };
+		CBCC62CD1AD0C00700DFFFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62CC1AD0C00700DFFFE1 /* ViewController.swift */; };
+		CBCC62D01AD0C00700DFFFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62CE1AD0C00700DFFFE1 /* Main.storyboard */; };
+		CBCC62D21AD0C00700DFFFE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62D11AD0C00700DFFFE1 /* Images.xcassets */; };
+		CBCC62D51AD0C00700DFFFE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62D31AD0C00700DFFFE1 /* LaunchScreen.xib */; };
+		CBCC62E11AD0C00700DFFFE1 /* FishlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62E01AD0C00700DFFFE1 /* FishlyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCC62DB1AD0C00700DFFFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCC62BD1AD0C00600DFFFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCC62C41AD0C00600DFFFE1;
+			remoteInfo = Fishly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCC62C51AD0C00600DFFFE1 /* Fishly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fishly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCC62C91AD0C00600DFFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBCC62CC1AD0C00700DFFFE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBCC62CF1AD0C00700DFFFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCC62D11AD0C00700DFFFE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBCC62D41AD0C00700DFFFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBCC62DA1AD0C00700DFFFE1 /* FishlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCC62DF1AD0C00700DFFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCC62E01AD0C00700DFFFE1 /* FishlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishlyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCC62C21AD0C00600DFFFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCC62D71AD0C00700DFFFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCC62BC1AD0C00600DFFFE1 = {
+			isa = PBXGroup;
+			children = (
+				CBCC62C71AD0C00600DFFFE1 /* Fishly */,
+				CBCC62DD1AD0C00700DFFFE1 /* FishlyTests */,
+				CBCC62C61AD0C00600DFFFE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCC62C61AD0C00600DFFFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC62C51AD0C00600DFFFE1 /* Fishly.app */,
+				CBCC62DA1AD0C00700DFFFE1 /* FishlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCC62C71AD0C00600DFFFE1 /* Fishly */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */,
+				CBCC62CC1AD0C00700DFFFE1 /* ViewController.swift */,
+				CBCC62CE1AD0C00700DFFFE1 /* Main.storyboard */,
+				CBCC62D11AD0C00700DFFFE1 /* Images.xcassets */,
+				CBCC62D31AD0C00700DFFFE1 /* LaunchScreen.xib */,
+				CBCC62C81AD0C00600DFFFE1 /* Supporting Files */,
+			);
+			path = Fishly;
+			sourceTree = "<group>";
+		};
+		CBCC62C81AD0C00600DFFFE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC62C91AD0C00600DFFFE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCC62DD1AD0C00700DFFFE1 /* FishlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC62E01AD0C00700DFFFE1 /* FishlyTests.swift */,
+				CBCC62DE1AD0C00700DFFFE1 /* Supporting Files */,
+			);
+			path = FishlyTests;
+			sourceTree = "<group>";
+		};
+		CBCC62DE1AD0C00700DFFFE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC62DF1AD0C00700DFFFE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCC62C41AD0C00600DFFFE1 /* Fishly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCC62E41AD0C00700DFFFE1 /* Build configuration list for PBXNativeTarget "Fishly" */;
+			buildPhases = (
+				CBCC62C11AD0C00600DFFFE1 /* Sources */,
+				CBCC62C21AD0C00600DFFFE1 /* Frameworks */,
+				CBCC62C31AD0C00600DFFFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fishly;
+			productName = Fishly;
+			productReference = CBCC62C51AD0C00600DFFFE1 /* Fishly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCC62D91AD0C00700DFFFE1 /* FishlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCC62E71AD0C00700DFFFE1 /* Build configuration list for PBXNativeTarget "FishlyTests" */;
+			buildPhases = (
+				CBCC62D61AD0C00700DFFFE1 /* Sources */,
+				CBCC62D71AD0C00700DFFFE1 /* Frameworks */,
+				CBCC62D81AD0C00700DFFFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCC62DC1AD0C00700DFFFE1 /* PBXTargetDependency */,
+			);
+			name = FishlyTests;
+			productName = FishlyTests;
+			productReference = CBCC62DA1AD0C00700DFFFE1 /* FishlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCC62BD1AD0C00600DFFFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aleksandar Gavric";
+				TargetAttributes = {
+					CBCC62C41AD0C00600DFFFE1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CBCC62D91AD0C00700DFFFE1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CBCC62C41AD0C00600DFFFE1;
+					};
+				};
+			};
+			buildConfigurationList = CBCC62C01AD0C00600DFFFE1 /* Build configuration list for PBXProject "Fishly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCC62BC1AD0C00600DFFFE1;
+			productRefGroup = CBCC62C61AD0C00600DFFFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCC62C41AD0C00600DFFFE1 /* Fishly */,
+				CBCC62D91AD0C00700DFFFE1 /* FishlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCC62C31AD0C00600DFFFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC62D01AD0C00700DFFFE1 /* Main.storyboard in Resources */,
+				CBCC62D51AD0C00700DFFFE1 /* LaunchScreen.xib in Resources */,
+				CBCC62D21AD0C00700DFFFE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCC62D81AD0C00700DFFFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCC62C11AD0C00600DFFFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC62CD1AD0C00700DFFFE1 /* ViewController.swift in Sources */,
+				CBCC62CB1AD0C00700DFFFE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCC62D61AD0C00700DFFFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC62E11AD0C00700DFFFE1 /* FishlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCC62DC1AD0C00700DFFFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCC62C41AD0C00600DFFFE1 /* Fishly */;
+			targetProxy = CBCC62DB1AD0C00700DFFFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCC62CE1AD0C00700DFFFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCC62CF1AD0C00700DFFFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCC62D31AD0C00700DFFFE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCC62D41AD0C00700DFFFE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCC62E21AD0C00700DFFFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCC62E31AD0C00700DFFFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCC62E51AD0C00700DFFFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fishly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBCC62E61AD0C00700DFFFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fishly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBCC62E81AD0C00700DFFFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishly.app/Fishly";
+			};
+			name = Debug;
+		};
+		CBCC62E91AD0C00700DFFFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishly.app/Fishly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCC62C01AD0C00600DFFFE1 /* Build configuration list for PBXProject "Fishly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCC62E21AD0C00700DFFFE1 /* Debug */,
+				CBCC62E31AD0C00700DFFFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCC62E41AD0C00700DFFFE1 /* Build configuration list for PBXNativeTarget "Fishly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCC62E51AD0C00700DFFFE1 /* Debug */,
+				CBCC62E61AD0C00700DFFFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCC62E71AD0C00700DFFFE1 /* Build configuration list for PBXNativeTarget "FishlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCC62E81AD0C00700DFFFE1 /* Debug */,
+				CBCC62E91AD0C00700DFFFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCC62BD1AD0C00600DFFFE1 /* Project object */;
+}
