@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB8C93C41AD0D07300904856 /* ReportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93C31AD0D07300904856 /* ReportDetailViewController.swift */; };
+		CB8C93C61AD0D70100904856 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93C51AD0D70100904856 /* Date.swift */; };
+		CB8C93C81AD161B900904856 /* AddReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93C71AD161B900904856 /* AddReportViewController.swift */; };
+		CB9EF5391AD2A311007FC1A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9EF5381AD2A311007FC1A7 /* CoreData.framework */; };
+		CB9EF5701AD2A6FE007FC1A7 /* FishlyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB9EF56E1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodeld */; };
+		CB9EF5721AD2A7FA007FC1A7 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9EF5711AD2A7FA007FC1A7 /* ReportModel.swift */; };
 		CBCC62CB1AD0C00700DFFFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */; };
 		CBCC62CD1AD0C00700DFFFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62CC1AD0C00700DFFFE1 /* ViewController.swift */; };
 		CBCC62D01AD0C00700DFFFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62CE1AD0C00700DFFFE1 /* Main.storyboard */; };
 		CBCC62D21AD0C00700DFFFE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62D11AD0C00700DFFFE1 /* Images.xcassets */; };
 		CBCC62D51AD0C00700DFFFE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCC62D31AD0C00700DFFFE1 /* LaunchScreen.xib */; };
 		CBCC62E11AD0C00700DFFFE1 /* FishlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62E01AD0C00700DFFFE1 /* FishlyTests.swift */; };
+		CBCC62EF1AD0C53A00DFFFE1 /* ReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC62EE1AD0C53A00DFFFE1 /* ReportCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB8C93C31AD0D07300904856 /* ReportDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportDetailViewController.swift; sourceTree = "<group>"; };
+		CB8C93C51AD0D70100904856 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CB8C93C71AD161B900904856 /* AddReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReportViewController.swift; sourceTree = "<group>"; };
+		CB9EF5381AD2A311007FC1A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB9EF56F1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishlyModel.xcdatamodel; sourceTree = "<group>"; };
+		CB9EF5711AD2A7FA007FC1A7 /* ReportModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportModel.swift; path = ../ReportModel.swift; sourceTree = "<group>"; };
 		CBCC62C51AD0C00600DFFFE1 /* Fishly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fishly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCC62C91AD0C00600DFFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,7 @@
 		CBCC62DA1AD0C00700DFFFE1 /* FishlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCC62DF1AD0C00700DFFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCC62E01AD0C00700DFFFE1 /* FishlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishlyTests.swift; sourceTree = "<group>"; };
+		CBCC62EE1AD0C53A00DFFFE1 /* ReportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9EF5391AD2A311007FC1A7 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,12 @@
 			children = (
 				CBCC62CA1AD0C00700DFFFE1 /* AppDelegate.swift */,
 				CBCC62CC1AD0C00700DFFFE1 /* ViewController.swift */,
+				CB8C93C31AD0D07300904856 /* ReportDetailViewController.swift */,
+				CB8C93C71AD161B900904856 /* AddReportViewController.swift */,
+				CBCC62EE1AD0C53A00DFFFE1 /* ReportCell.swift */,
+				CB8C93C51AD0D70100904856 /* Date.swift */,
+				CB9EF56E1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodeld */,
+				CB9EF5711AD2A7FA007FC1A7 /* ReportModel.swift */,
 				CBCC62CE1AD0C00700DFFFE1 /* Main.storyboard */,
 				CBCC62D11AD0C00700DFFFE1 /* Images.xcassets */,
 				CBCC62D31AD0C00700DFFFE1 /* LaunchScreen.xib */,
@@ -90,6 +111,7 @@
 		CBCC62C81AD0C00600DFFFE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB9EF5381AD2A311007FC1A7 /* CoreData.framework */,
 				CBCC62C91AD0C00600DFFFE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9EF5701AD2A6FE007FC1A7 /* FishlyModel.xcdatamodeld in Sources */,
+				CB9EF5721AD2A7FA007FC1A7 /* ReportModel.swift in Sources */,
 				CBCC62CD1AD0C00700DFFFE1 /* ViewController.swift in Sources */,
+				CB8C93C61AD0D70100904856 /* Date.swift in Sources */,
+				CB8C93C41AD0D07300904856 /* ReportDetailViewController.swift in Sources */,
 				CBCC62CB1AD0C00700DFFFE1 /* AppDelegate.swift in Sources */,
+				CBCC62EF1AD0C53A00DFFFE1 /* ReportCell.swift in Sources */,
+				CB8C93C81AD161B900904856 /* AddReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +435,7 @@
 				CBCC62E61AD0C00700DFFFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBCC62E71AD0C00700DFFFE1 /* Build configuration list for PBXNativeTarget "FishlyTests" */ = {
 			isa = XCConfigurationList;
@@ -415,8 +444,22 @@
 				CBCC62E91AD0C00700DFFFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB9EF56E1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB9EF56F1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodel */,
+			);
+			currentVersion = CB9EF56F1AD2A6FE007FC1A7 /* FishlyModel.xcdatamodel */;
+			path = FishlyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CBCC62BD1AD0C00600DFFFE1 /* Project object */;
 }
